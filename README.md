@@ -3,7 +3,7 @@
 > Recursive attack protocol for CTF Web challenges — "Every privilege escalation restarts the recon → exploit loop."
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![Version](https://img.shields.io/badge/version-5.1-orange)]()
+[![Version](https://img.shields.io/badge/version-v1.0-orange)]()
 
 ---
 
