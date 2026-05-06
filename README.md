@@ -23,7 +23,16 @@ Guest → [Vector X] → www-data → [Intel Y] → [PrivEsc Z] → Root → Fla
 
 ## Quick Start
 
-Read `FISHBONE.md` and follow the 3-step flow:
+**`FISHBONE.md` is a [Claude Code](https://claude.ai/code) instruction file.** When loaded as a project's `CLAUDE.md`, it transforms Claude into a top-tier CTF researcher that follows the recursive spine protocol automatically.
+
+```bash
+# Option 1: Use directly in any CTF working directory
+cp FISHBONE.md /your/ctf/workdir/CLAUDE.md
+
+# Option 2: Read standalone as a reference manual
+```
+
+Then follow the 3-step flow:
 
 ```
 30s Routing → Recursive Spine → Writeup Archive
@@ -47,7 +56,7 @@ Read `FISHBONE.md` and follow the 3-step flow:
 ```
 CTF-Fishbone/
 ├── README.md          # You are here
-├── FISHBONE.md        # Full framework (framework body)
+├── FISHBONE.md        # The CLAUDE.md instruction file (rename to CLAUDE.md to use)
 └── LICENSE            # MIT
 ```
 
@@ -84,7 +93,16 @@ MIT — Use it, fork it, improve it. Attribution appreciated.
 
 ## 快速开始
 
-阅读 `FISHBONE.md`，按三步走：
+**`FISHBONE.md` 是一个 [Claude Code](https://claude.ai/code) 指令文件。** 将其重命名为 `CLAUDE.md` 放入工作目录后，Claude 会按照递归鱼骨协议自动执行 CTF 攻击流程。
+
+```bash
+# 方式一：放入 CTF 工作目录，作为 Claude 的指令文件
+cp FISHBONE.md /your/ctf/workdir/CLAUDE.md
+
+# 方式二：当作独立参考手册随时查阅
+```
+
+之后按三步走：
 
 ```
 30秒路由定方向 → 递归鱼骨推进 → 鱼尾归档
